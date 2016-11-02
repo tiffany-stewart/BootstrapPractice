@@ -1,0 +1,57 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
+
+.headerContainer {
+  background-color: #000;
+  opacity: .7;
+  height: 100px;
+  width: 300px;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.headerContainer h4 {
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+button {
+  margin-top: 300px;
+}
+
+p.lead {
+  font-weight: 100;
+  margin-top: -5px;
+}
+
+.cl_white {
+  color: #fff;
+  font-weight: 100;
+}
+
+#work {
+}
+
+img {
+  width: 300px;
+  transition: .3s ease-in-out;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+.col-text {
+  -webkit-column-count: 3;
+}
